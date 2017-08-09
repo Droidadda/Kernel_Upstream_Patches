@@ -27,7 +27,6 @@ index dd7466c..2e4ff00 100644
  			buf32[i] = cpu_to_le32(cur->datum.u.ops->op.perms[i]);
  		rc = put_entry(buf32, sizeof(u32),
 
-
 From 1ee6ba4dfbba3579af6393e8f7f7ee2dd6e3b211 Mon Sep 17 00:00:00 2001
 From: Jeff Vander Stoep <jeffv@google.com>
 Date: Wed, 29 Jul 2015 20:21:56 -0700
